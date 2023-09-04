@@ -1,0 +1,55 @@
+doctype html
+//- yeh file use nahi ho rahi bas aise hi hai
+html
+    head
+        title Chanakya IAS accadmey 
+        style 
+            include ../static/style.css 
+    body
+        
+        nav#navbar
+            ul
+                
+                img(src = "../static/logo2.png")
+                li #[a(href = "/") Home]
+                li #[a(href = "/") About Us]
+                li #[a(href = "/") Batch info]
+                li #[a(href = "/") Curriculam]
+                li #[a(href = "/") Fees Structure]
+                li #[a(href = "/") Sign up and Log in]    
+                
+                
+                
+
+        section#introSection
+            div#heading  
+                h1  Welcome to  Chanakya IAS Academy
+                div   Naturing Leaders of Tomorrow 
+
+        section#ourmissionSection
+            h2 Vision and Mission 
+            div.card  
+                div Our vision
+                    p To fulfill every student s dream of Quality Education by creating a gateway of Global Outreach
+                div Our Mission
+                    p "Augmenting excellence of millions of students and turning their dreams of overseas education into reality."
+                div Our Values
+                    p Integrity, Devotion, Humanism, Holistic Learning, Social Ethics, and Concern for our Society & Environment
+
+
+
+        section#sponsarSection 
+            h2 Our Sponsers
+            div#sponsers 
+                img(src = "../static/sponser/s1.jpg" alt = "sponser image"  class = "spimage")
+                img(src = "../static/sponser/s2.jpg" alt = "sponser image"  class = "spimage")
+                img(src = "../static/sponser/s3.jpg" alt = "sponser image"  class = "spimage")
+                img(src = "../static/sponser/s4.jpg" alt = "sponser image"  class = "spimage")
+
+
+        footer#footer 
+            |   Copyright 2019  &#169 Chanakyaiasaccadmey.com | All Rights Reserved
+
+        
+        script 
+            include ../static/javascript.js

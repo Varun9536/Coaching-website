@@ -1,0 +1,55 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+.container
+{
+    background: url("../static/contactbg.jpg") ;
+    height: 700px;
+    padding: 120px 0px;
+    font-family: 'Caveat', cursive;
+
+}
+
+h1{
+    text-align: center;
+    padding: 10px 0px;
+    color: aliceblue;
+    
+}
+
+.myform
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.myinput
+{
+    width: 40%;
+    text-align: center;
+    padding: 8px 0px;
+    margin: 12px 0px;
+    font-size: 17px;
+    border-radius: 15px;
+    background: rgb(211, 211, 253);
+}
+#btn
+{
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: rgb(211, 211, 253);
+}
+#btn:hover
+{
+    background-color: rgba(172, 255, 47, 0.664);
+
+}
