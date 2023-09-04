@@ -1,5 +1,5 @@
 # Coaching-website
- a coaching website is designed using pug template, css and express
-this site contain pug file in views folder 
- app.js file is backend 
- statics folder contain css . photo and javascript
+ A coaching website is designed using pug template, css and express.
+This site contain pug file in views folder .
+ App.js file is backend .
+ Static folder contain css . photo and javascript
